@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Credit Management</title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+      /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }    
+    .img {
+  width: 418px;
+  height: 400px;
+
+  }
+  </style>
+    </head>
+    <body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light stickey-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/4.png"></a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Image slider-->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#slides" data-slide-to="0" class="active"></li>
+          <li data-target="#slides" data-slide-to="1"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/credit1.png" alt="dollar" width="1100" height="500">
+            <div class="carousel-caption">
+                <h1 class="display-2 text-dark font-weight-bold">Credit Management</h1>
+                <h3 class="text-dark">Check your credit score</h3>
+            </div>  
+          </div>
+          <div class="carousel-item">
+            <img src="images/bitcoin.jpg" alt="money" width="1100" height="500">
+            <div class="carousel-caption">
+              <h1>Welcome to the credit scote check site</h1>
+              <h3>Happy jerouney</h3>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#slides" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slides" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <!--Jumvotron-->
+      <div class="row jumbotron text-center padding">
+        <div class="container-fluid padding">
+              <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                  <p class="lead">This paragraph for the demo base only, now after this you can edit this.</p>
+                  <a href="view.php" class="btn btn-info btn-lg" role="button">View Users</a>
+                  <a href="form.php" class="btn btn-success btn-lg " role="button">Make Transaction</a>
+                  <a href="transaction.php" class="btn btn-warning btn-lg" role="button">View Transaction</a>
+                </div>
+          </div>
+      </div>
+
+      <!--About-->
+      <div class="container-fluid">
+        <h1 class="text-center pt-5">About Us</h1>
+        <hr class="w-25 mx-auto pb-5">
+        
+        <div class="row mb-5">
+            <div class="col-lg-6 col-md-6 col-12">
+                <img src="images/team.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+            <h1>Who am I?</h1>
+            <hr>
+            <p class="pt-4">Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.</p>
+            </div>
+        </div>
+    </div>
+      <hr class="my-4">
+
+      <!--Fixes background-->
+      <figure>
+          <div class="fixed-wrap">
+              <div id="fixed">
+                  
+              </div>
+          </div>
+      </figure>
+
+      <!--Team-->
+      <div class="container-fluid padding">
+          <div class="row welcome text-center">
+              <div class="col-12">
+                <h1 class="display-4">Meat the team</h1>
+              </div>
+              <hr> 
+          </div>
+      </div>
+
+      <!--card-->
+      <div class="container-fluid padding">
+          <div class="row padding">
+              <div class="col-md-4">
+                  <div class="card">
+                      <img class="card-imd-top img" src="images/p4.jpg">
+                      <div class="card-body">
+                          <h4 class="card-title">Dr. Strange</h4>
+                          <p class="card-text">Manager of the companey.</p>
+                          <a href="#" class="btn btn-primary">See Profile</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                    <img class="card-imd-top img" src="images/team2.jpg" width="450" height="299">
+                    <div class="card-body">
+                        <h4 class="card-title">Shubham Kumar</h4>
+                        <p class="card-text">Our employee do work hard.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-imd-top img" src="images/p3.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Dr. Brie Larson</h4>
+                        <p class="card-text">CEO of our organisation.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      <!---Contact-->
+      <div class="row text-center padding">
+        <div class="container-fluid padding">
+            <h1 class="text-center pt-5">Contact</h1>
+            <hr class="w-25 mx-auto pb-5">
+              <div class="col-12 social padding">
+                <a href=""><i class="fa fa-facebook" style="font-size:48px;color:blue"></i></a>
+                <a href="#"><i class="fa fa-twitter" style="font-size:48px;color:blue"></i></a>
+                <a href="#"><i class="fa fa-youtube" style="font-size:48px;color:red"></i></a>
+              </div>
+          </div>
+        </div>
+      
+      <!--footer-->
+      <footer>
+        <div class="container-fluid text-center bg-dark text-white py-3">
+            <div class="row s-img">
+            <div class="col-lg-4 col-md-2 col-12 mb-5">
+                <h2>Supportives</h2><hr>
+                Hindustan Unilever<br>Nestle<br>Amul<br>TATA
+            </div>
+            <div class="col-lg-4 col-md-2 col-12 mb-5">
+                <h2>Members</h2><hr>
+                Salil Shukla<br>Shubham Kumar<br>Abhishek Rajawat<br>Sudhanshu Srivastava
+            </div>
+            <div class="col-lg-4 col-md-2 col-12 mb-5">
+                <h2>Help</h2><hr>
+                skp92360@gmail.com<br>
+                +91 7084594331
+            </div>
+        </div>
+        <p>Designed by Shubham Kumar Prajapati</p>
+        </div>
+      </footer>
+    </body>
+</html>

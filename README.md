@@ -1,7 +1,7 @@
 # What is credit-management?
 Credit management system has to transfer the credit one user to other.
 
-Create a simple dynamic website which has the following specs.
+Create a Simple dynamic website which has the following specs.
 
 Start with creating dummy data in database for upto 10 users.
 Database options: Mysql, Mongo, Postgres, etc. User table will

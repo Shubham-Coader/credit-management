@@ -1,4 +1,4 @@
-# credit-management
+# What is credit-management?
 Credit management system has to transfer the credit one user to other.
 
 Create a simple dynamic website which has the following specs.
